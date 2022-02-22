@@ -14,7 +14,7 @@ module "aws-vpc" {
 
   domain_name         = ["gglabs.co.uk"]
   dns_server          = ["10.120.4.20", "10.121.4.20"]
-  vpc_cidr            = "10.126.0.0/20"
+  vpc_cidr            = "10.120.0.0/20"
   subnet_size         = "25"
   use_infosec_subnet  = false
   amazon_side_asn_tgw = 420002001
